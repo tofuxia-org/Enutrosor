@@ -13,6 +13,14 @@ out
 *.iml
 .idea
 
+# vscode
+.vscode
+
+# java
+*.class
+*.jar
+*.hprof
+
 # gradle
 build
 .gradle
@@ -22,5 +30,10 @@ eclipse
 run
 runs
 run-data
+
+# custom / env variable for unit test
+*.secret
+logs
+
 
 repo
